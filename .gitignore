@@ -1,22 +1,3 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -26,12 +7,37 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
 ### VS Code ###
 .vscode/
+
+### Build Output Directories ###
+build/
+bin/
+classes/
+out/
+target/
+log/
+
+### Gradle ###
+.gradle/
+
+### Maven ###
+.mvn/
+
+### Node/NPM ###
+node_modules/
+dist/
+typings/
+coverage/
+jspm_packages/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+### Common Build Deploy ###
+**/manifest-generated.yml
+
+### local properties file ###
+**/application-local.yml
+**/application-local.properties
